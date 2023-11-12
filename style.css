@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
 h1 {
     position: absolute;
+    top: 30vh;
     font-size: calc(20px + 18vh);
     line-height: calc(20px + 20vh);
     /*   text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
@@ -12,6 +13,12 @@ h1 {
     text-align: center;
     animation: blink 12s infinite;
     -webkit-animation: blink 12s infinite;
+}
+
+.wish {
+    position: absolute;
+    top: 20vh;
+    font-size: calc(5px + 5vh);
 }
 
 @media only screen and (max-width: 600px) {
@@ -35,6 +42,11 @@ h1 {
         font-family: 'Roboto', sans-serif;
         bottom: 10px;
         margin: 20px;
+    }
+    .wish {
+        position: absolute;
+        top: 20vh;
+        font-size: calc(5px + 5vh);
     }
 }
 

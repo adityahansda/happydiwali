@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wish You Happy Diwali</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <canvas id="canvas"></canvas>
+    <h1 class="wish">Wish You</h1>
+    <h1>Happy Diwali</h1>
+
+    <!-- Created by Adity Hansda -->
+    <span class="Quotes"> "May this Diwali burn all your tension with crackers and bring lots of happiness and fulfill your dreams. Wish you a Happy Diwali 🪔"</span>
+    <span><a href="https://bento.me/adityahansda">Made ❤️ by Aditya Hansda</a></span>
+
+    <!-- Autoplay audio with a link -->
+    <audio id="diwaliAudio" controls autoplay>
+        <source src="https://drive.google.com/uc?id=1esc_x3gJHPUbqH8HQyPyI528Tx2SWOb3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Play button -->
+    <button role="button" onclick="startAudio()">Play Audio</button>
+
+    <script>
+        function startAudio() {
+            var audio = document.getElementById('diwaliAudio');
+            audio.play();
+        }
+    </script>
+
+</body>
+
+</html>
